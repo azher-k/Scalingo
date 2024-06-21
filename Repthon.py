@@ -33,9 +33,9 @@ from user_agent import *
 
 
 app = Client(
-    name = "datarick",
-    api_id = 16885299,
-    api_hash = "89b9ac040eaf94268318ec3a43c39cdd"
+    name = "datarep",
+    api_id = "13740761",
+    api_hash = "4ce319a92c01fab2b02551af8d7f73a4"
 )
 app.start()
 
