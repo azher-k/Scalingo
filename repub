@@ -1,4 +1,4 @@
-git clone https://github.com/Repthon-Arabic/RepthonAr/tree/web RSCALE
+git clone https://github.com/rogerpq/Scal RSCALE
 cd RSCALE
 pip3 install --upgrade pip
 pip3 install -U -r requirements.txt
