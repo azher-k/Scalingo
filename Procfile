@@ -1,2 +1,1 @@
-web: python3 app.py
-worker: bash repub
+web: python3 app.py & bash repub
