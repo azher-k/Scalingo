@@ -1,1 +1,2 @@
-web: python3 app.py & bash repub
+web: python -m http.server $PORT
+worker: bash repub
