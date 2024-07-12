@@ -1,1 +1,2 @@
-web: gunicorn app:app --daemon && bash repub
+web: gunicorn app:app --daemon
+worker: bash repub
