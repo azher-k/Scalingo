@@ -4,7 +4,7 @@
     "addons": ["scalingo-postgresql"],
     "keywords": ["python","ai","application","web","gunicorn","flask","scalingo"],
     "repository": "https://github.com/Repthon-Arabic/Scalingo",
-    "logo": "",
+    "logo": "https://graph.org/file/5d3e657e910057f03a8aa.jpg",
     "stack": "container",
     "env": {
         "STRING_SESSION": {
