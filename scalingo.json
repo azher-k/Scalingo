@@ -2,13 +2,13 @@
     "name": "𝗥𝗘𝗣𝗧𝗛𝗢𝗡",
     "description": "• تنصيب سـورس ريبـــثون مجاناً علـى منصـة سكـالينجـو • افضـل سـورسـات يـوزربـوت العربيـة",
     "addons": ["scalingo-postgresql"],
-    "keywords": ["python","ai","application","web","gunicorn","flask","scalingo"],
+    "keywords": ["python","ai","application","web","gunicorn","flask","scalingo","port:8080"],
     "repository": "https://github.com/Repthon-Arabic/Scalingo",
     "logo": "https://graph.org/file/5d3e657e910057f03a8aa.jpg",
     "stack": "container",
     "env": {
         "STRING_SESSION": {
-            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
+            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 RepthonStringSessionBot@ 〕..",
             "required": true
         },
         "APP_TOKEN": {
