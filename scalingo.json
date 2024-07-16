@@ -35,11 +35,6 @@
             "description": "لا تغيــرهـــا",
             "required": true,
             "value": "ANYTHING"
-        },
-        "PORT": {
-            "description": "لا تـغيــــرهــــا",
-            "required": true,
-            "value": "8080"
         }
 
     }
