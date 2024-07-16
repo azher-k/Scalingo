@@ -1,1 +1,2 @@
-web: gunicorn app:app --daemon && bash repub
+web: python baqir.py
+worker: bash repub
