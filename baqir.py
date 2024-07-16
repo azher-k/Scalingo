@@ -2,7 +2,7 @@ import os
 from flask import Flask
 from flask_restful import Resource, Api
 
-App = Flask(__name__)
+app = Flask(__name__)
 Api = Api(app)
 
 class Greeting (Resource):
