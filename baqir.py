@@ -3,11 +3,11 @@ from flask import Flask
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
-Api = Api(app)
+api = Api(app)
 
 class Greeting (Resource):
-  def get(self):
-    return "Repthon working 😁"
+    def get(self):
+        return "Repthon working 😁"
 
 api.add_resource(Greeting, '/')
-app.run(host="0.0.0.0", port=os.environ.get("PORT", "8080"))
+app.run(host="0.0.0.0", port=os.environ.get("PORT", 8080))
